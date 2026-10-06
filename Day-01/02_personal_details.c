@@ -1,8 +1,12 @@
 #include <stdio.h>
 int main()
 {
-    printf("My name is Harshit Sharma.\n");
-    printf("I am 18 years old.\n");
-    printf("Currently, I am pursuing BCA in SRM University.\n");
+    char name[] = "Harshit Sharma";
+    int age = 18;
+    char university[] = "SRM University";
+
+    printf("Name: %s\n", name);
+    printf("Age: %d\n", age);
+    printf("University: %s\n", university);
     return 0;
 }
